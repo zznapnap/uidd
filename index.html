@@ -2,10 +2,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Hello World</title>
+<title>market</title>
 <link href="index.css" rel="stylesheet">
 </head>
 <body>
-Hello World
+<div class="content">
+<input type="button" value="Add Comments" id="button1" class="top-button">
+<input type="button" value="Add pictures" id="button2" class="top-button">
+<input type="button" value="My Collection" id="button3" class="top-button">
+<img src="u-2.png" alt="destination" id="destination-button" onmouseover="destinationOver()" onmouseout="destinationOut()"></img>
+<img src="u-u.png" alt="check-point" id="check-point1" class="check-point" onmouseover="commentOver()" onmouseout="commentOut()"></img>
+<img src="u-u.png" alt="check-point" id="check-point2" class="check-point"onmouseover="picOver()" onmouseout="picOut()"></img>
+<div id="destination-boxborder"><div id="destination-box">wow!such a cool place to visit!People are all nice here,and you can also get a free post card to send back to your hometown.</div></div>
+<div id="comment-box">Great food!come and try it yourself</div>
+<div id="picture-box"><img src="p.jpg" alt="tea" id="tea"></img></div>
+</div>
+<script src="myScript.js"></script>
 </body>
 </html>
